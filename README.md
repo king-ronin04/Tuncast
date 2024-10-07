@@ -120,6 +120,7 @@ Here we are going to focus on 2. Creating a Topical Branch:
     git checkout -b jsm-dev main
     git push origin jsm-dev
    ```
+   
 
 3. To create a pull request, you must have changes committed to your new branch.
 
