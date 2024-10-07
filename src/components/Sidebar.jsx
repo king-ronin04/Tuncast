@@ -5,6 +5,7 @@ import { RiCloseLine } from "react-icons/ri";
 import { logo } from "../assets";
 import { Link } from "react-router-dom";
 import { links } from "../assets/constants";
+
 const NavLinks = ({ handleClick }) => {
   return (
     <div className="mt-10 ">
@@ -50,7 +51,7 @@ const NavLinks = ({ handleClick }) => {
         </h1>
       </Link>
       <h1 className="ml-0 sm:ml-8 text-md md:text-xl md:mt-10 cursor-pointer text-gray-800 my-2 font-medium ">
-        Copyright Chirag Suthar &copy; | All Rights Reserved
+        Copyright Anshu Yadav &copy; | All Rights Reserved
       </h1>
     </div>
   );
@@ -58,6 +59,7 @@ const NavLinks = ({ handleClick }) => {
 const Sidebar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  
   return (
     <>
       <div className="lg:flex hidden flex-col  w-[240px] py-14 md:py-10  bg-[#f2f1f6]">
@@ -89,6 +91,7 @@ const Sidebar = () => {
           mobileMenuOpen ? "left-0" : "-left-full"
         }`}
       >
+        
         <Link to="/">
           <div className="flex flex-row justify-center items-center cursor-pointer">
             <img src={logo} alt="logo" className="h-8 w-8 object-contain" />
